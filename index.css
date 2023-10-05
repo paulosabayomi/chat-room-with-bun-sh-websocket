@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.chat-container {
+    display: block;
+    width: 45%;
+}
+
+.chat-container .chat-body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    min-height: 400px;
+    overflow-y: auto;
+}
+
+.chat-container .chat-body .chat-item {
+    padding: 10px;
+    border-bottom: 1px solid rgba(194, 194, 194, 0.967);
+}
+
+.chat-container  .chat-footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    background-color: rgb(219, 219, 219);
+}
+
+.chat-container .chat-footer input {
+    padding: 8px 5px;
+    width: 70%;
+}
+
+.pub-sub {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    background-color: rgb(219, 219, 219);
+    width: 45%;
+}
+
+.pub-sub input {
+    padding: 8px 5px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.pub-sub .pub-sub-btn {
+    padding: 8px 15px;
+    background-color: rgb(0, 187, 255);
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.pub-sub .pub-sub-btn:active {
+    background-color: rgb(0, 132, 181);
+
+}

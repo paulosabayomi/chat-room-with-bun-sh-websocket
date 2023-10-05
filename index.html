@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Chat with Bun.sh</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Live Chat With Bun.sh</h1>
+    <div class="msg-cont"></div>
+    <div class="" style="display: flex;">
+        <div class="" style="margin-right: 10px;">Socket ID: </div>
+        <div class="my-socket-id"></div>
+    </div>
+    <div class="pub-sub">
+        <input type="text" id="session-id-input" placeholder="Enter session id to join">
+        <button id="session-id-btn" class="pub-sub-btn">Join</button>
+    </div>
+    <div class="chat-container">
+        <div class="chat-body">
+            <!-- <div class="chat-item">Hi how are you doing?</div>
+            <div class="chat-item">Hi how are you doing?</div> -->
+        </div>
+        <div class="chat-footer">
+            <input type="text" id="chat-input" placeholder="Start typing...">
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
